@@ -1,0 +1,125 @@
+/*General*/
+
+
+
+body{
+      font-family: 'robot-condensed'
+}
+.header-carousel img {
+      width: 100%;
+      height:650px;
+    
+  }
+.add-slider{
+height:600px;
+}
+
+.header-content{
+  font-size:25px;
+  font-weight:700;    
+}
+.overlay{
+    background-color: rgba(0,0,0,0.8);
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+   height:650px;
+}
+/* Add*/
+.add-carousel img{
+    width: 100%;
+      height:250px;
+}
+.card
+{
+    height:400px;
+}
+.card-add-title{
+  font-size:15px;
+  font-weight: bold;
+}
+.card-text{
+  font-weight:400;
+}
+.b-add{
+  background: url(http://gdurl.com/r5XA);
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.overlay1{
+    background-color: rgba(0,0,0,0.8);
+    
+    width:100%;
+   height:400px;
+}
+footer{
+  color:#eee;
+  font-size:11px;
+  padding:20px;
+}
+.add-con img{
+     opacity: 0.7;
+      
+    transition:opacity 0.5s; 
+}
+.add-con img:hover{
+    opacity: 1;
+    transform: scale(1.03);
+} 
+#offers{
+    height:250px;
+}
+.offer-img img{
+    width:100%;
+    height:200px;
+  
+  box-shadow: 3px 3px 4px #003322;
+
+}
+/*responsive*/
+
+@media(min-width:992px){
+    
+}
+@media(min-width:768px) and (max-width:991px){
+    
+}
+@media(min-width:575px) and (max-width:767px){
+    
+}
+@media(min-width:480px) and (max-width:574px){
+    
+}
+@media(max-width:479px){/*medium*/
+ .ads{
+  height:1750px!important;
+ }
+ .contact-img img{
+  margin-left:40px!important;
+ }
+  .b-add{
+  height:620px !important;
+     
+ }
+ .overlay1{
+   height:620px;
+}
+ .b-adds{
+  height:470px!important;
+ }
+ .b-adds p{
+   height:110px;
+ }
+    #offers{
+        height:620px;
+    }
+    .offer-img img{
+        margin-bottom: 10px;
+    }
+}
+
+
+
+
+
